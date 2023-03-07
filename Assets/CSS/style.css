@@ -44,6 +44,7 @@
     align-items: center;
     position:relative;
     left: -650px;
+    top:10px;
     font-size: 43px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
@@ -52,16 +53,20 @@
 .card-container{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
-  justify-items: center;
   border-top: 5px solid black;
-
+  margin:10px;
+  padding:30px;
+  background-color: rgb(222, 229, 236);
+  
 }
-
 
 .card{
     position:relative;
     width: 18rem;
-    height: 410px ;  
+    height: 410px;  
+    margin-right:60px;
+     
+    
     
 }
 
@@ -74,6 +79,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
+    margin:10px;
   }
   
   .container-2 {
@@ -91,7 +97,8 @@
   }
   
  hr{
-    border:solid 3px black
+    border:solid 0.5px rgb(226, 176, 215)
+     
  }
 
 #contact-me{
@@ -99,6 +106,28 @@
     padding:0px;
     background-color: rgb(236, 206, 230);
 }
- 
 
+
+.link  a:hover{
+    color: rgb(244, 193, 231);
+    
+}
+
+.contact-container{
+    background-color: rgb(167, 187, 223);
+    margin:10px;
+    padding:20px;  
+  
+}
+
+.button:hover {
+    box-shadow: 8px 4px 3px rgb(226, 176, 215);
+    display:inline-block;
+    
+    
+   
+    
+
+
+}
 
